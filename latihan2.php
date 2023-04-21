@@ -18,8 +18,8 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     <tr>
       <th>#</th>
       <th>Gambar</th>
-      <th>Nim</th>
       <th>Nama</th>
+      <th>Nim</th>
       <th>Email</th>
       <th>Jurusan</th>
       <th>Aksi</th>
