@@ -29,7 +29,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     foreach ($mahasiswa as $m) : ?>
       <tr>
         <td><?= $i++; ?></td>
-        <td><img src="img/<?= $m['Gambar']; ?>" width="60"></td>
+        <td><img src="img/<?= $m['Gambar']; ?>" width="70"></td>
         <td><?= $m['nama']; ?></td>
         <td>
           <a href="detail.php?id=<?= $m['id']; ?>">lihat detail</a>
